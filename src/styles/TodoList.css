@@ -1,0 +1,103 @@
+body {
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #444;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #555;
+    color: white;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.remove-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #cd5c5c; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+.add-button:hover {
+    background-color: darkred; 
+}
+
+.clear-button {
+    background-color: blue; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background-color: darkblue;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.todo-input {
+    width: 80%; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #555;
+    color: white;
+}
