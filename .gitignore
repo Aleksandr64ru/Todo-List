@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Логи
+*.log
+
+# Файлы сборки
+dist/
+build/
+
+# Файлы конфигурации
+.env
