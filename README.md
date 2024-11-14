@@ -22,8 +22,6 @@
    ```bash
    git clone <https://github.com/Aleksandr64ru/Todo-List.git>
    
-   cd todo
-   
 Установите зависимости:
 
 ```
