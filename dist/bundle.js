@@ -43622,7 +43622,7 @@ var App = function () {
         setIsLoggedIn(false);
         localStorage.removeItem('isLoggedIn');
     };
-    return (react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
+    return (react_1.default.createElement(react_router_dom_1.HashRouter, null,
         react_1.default.createElement(react_router_dom_1.Routes, null,
             react_1.default.createElement(react_router_dom_1.Route, { path: "/login", element: isLoggedIn ? react_1.default.createElement(react_router_dom_1.Navigate, { to: "/" }) : react_1.default.createElement(Login_1.default, { onLogin: handleLogin }) }),
             react_1.default.createElement(react_router_dom_1.Route, { path: "/", element: isLoggedIn ? (react_1.default.createElement(react_1.default.Fragment, null,
