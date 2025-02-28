@@ -7,6 +7,8 @@ import App from './components/App';
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
   <Provider store={store}>
+     <BrowserRouter basename="/Todo-List">
     <App />
+       </BrowserRouter>
   </Provider>
 );
